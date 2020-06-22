@@ -1,0 +1,54 @@
+    $[Free Versus for-a-fee: The Impact of Paywall on the Pattern and Effectivenss of WOM Via Social Media]$
+
+  #Keyword notes (intro)
+-paywall: charge for content that was earlier available for free
+-both subscription and ad revenues are a function of the newspaper's readership
+-tradeoff: charging fee raises revenue while lowers revenue from online ads in subscription
+-NYT implemented generous access policy allowing non-subscribers to read 20 articles for free
+-content sharing = WOM 
+-NYT allowed ind to bypass paywall when accessing NYT content by links shared in social media
+
+
+    #Lit review
+  1. Information Goods Pricing
+-information goods: products that can be digitized, almost zero variable costs for production and distribution 
+-consumer's low WTP for online content due to free content, freemium pricing strategy gaining popularity 
+-Freemium pricing strategy: free content supported by online advertising revenue and offers premium content to paying subscribers
+-WOM: volume measures total amt of WOM interactions , valence captures nature of WOM messages(positive or negative) 
+: awareness effect, persuasion effect
+
+
+    #Theoretical Framework
+  1. Volume of WOM
+Volume reduced by:
+1) Extant reading reduced -> intial sharing (seeds) for NYT content lowered -> lower retransmission
+2) Characteristic of content being tweeted: more niche content than popular content, lower retweet volume
+3) Change in sharing behavior: increase propensity to tweet to help subscribers on social media bypass NYT paywall, increase volume of WOM
+  2. Distribution of WOM
+1) Light users
+  1 - consumers who read less than free article limit
+  2 - consumers who read more than the free article limit but read less than the threshold to convert to subscribers 
+-1st group no effect, 2nd group can reduce consumption to fewer than 20 free articles limit, discontinue consumption of NYT news content and switch to alternative news sources
+
+
+    #Data
+2 sources
+1) NYT link sharing on Twitter 
+2) website traffic for 21 days before and after NYT's paywall rollout (March 28,2011)
+
+-to isolate time trend effect (possibly more interesting news before pre-paywall period): DID approach and use LA Times as a control group
+-data source - Twitter-licensed data reseller company / daily website traffic data for 2 newspapers from HiTwise, firm that collects aggregate clickstream data
+-online survey: support that Twitter WOM is appropriate proxy of article reading - online news reading, sharing on Twitter is positive
+
+    #Model
+  1. Impact of Paywall on WOM pattern
+-Volume of WOM: DID approach
+y: WOM, count of link sharing for NYT or LAT on Twitter (count model)  
+dummy: Paywall(=1 when in paywall period), NYT(=1 if NYT =0 if LAT) 
+Rank of Content: rank of an article after sorting articles based on volume of WOM for that article (highest shared articles get lowest rank)
+-regression, negative binomial regression
+
+
+
+
+
