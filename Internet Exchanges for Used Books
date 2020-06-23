@@ -1,0 +1,50 @@
+      [Internet Exchanges for Used Books: An Empirical Analysis of Product Cannibaliztion and Welfare Impact]
+ 
+  #Intro, Keywords
+-degree to which used products cannibalize new-product sales for books 
+-books are one of the most prominent used-product categories sold online
+-data set collected from Amazon's new and used book marketplaces 
+-Jeff Bezos: found that used books business does not take business away from sale of new books, opposite happed
+: offering customers lower-priced option causes them to visit site more frequently, leading to higher sales of new books
+: when customer sells used books, gives them a budget to buy more new books
+-analyze impact of secondary markets on welfare to publishers, retailers, and consumers
+-when consumer sells used book,
+1) retailer gets commission k per used good sold
+2) rest (1-k) is the gain to the consumer 
+
+  #Data
+-Amazon publicly available information on new and used book prices, sales ranks
+-1st sample: 180 day period: Sep 2002-Mar 2003 = 273 individual book titles 
+Category: NYT bestsellers, former NYT bestseller, new and upcoming books 
+-2nd sample: 85 day period: Aprit 2004-July 2004 = 41,994 obserservations of 393 titles
+-data includes: price, condition, seller rating 
+-only in 2nd sample, unique identifier exists - can know if sold or not 
+Sales of book
+-before hard to measure, quantity sold unobservable
+-stable relationship between ordinal sales rank and cardinal number of sales 
+-calibration of beta=-0.8555 (purchase several copies and track sales rank before/after purchase)
+-Sales rank calculated based only on new-book sales
+
+  #Model
+  1) 1st regression
+-y: log of rank 
+-x: Amazon price, lowest-priced used book in market 
+-control: log of time since book released, condition of lowest-priced used book, seller rating for lowest-priced used book,
+log of number of used books offered for sale for particular book 
+-no endogeneity: quantity of selling books predetermined, quantity/price not jointly determined
+
+  2) 2nd regression: multinomial logit model 
+-observe each of the marketplace offers shown to customers with offer each customer chose to purchase
+-OLS with book level fixed effect
+
+    #Result
+ -Amazon price: positive/significant effect on rank
+ -Use book price: negative/significant effect on rank = no cannibalization (opposite)
+ -Condition rating/seller rating controls: insignificant in driving sales of new books
+ -Condition rating/seller rating controls: positively significant in choice of used-book 
+ *Used books are poor substitutes for new books 
+ -cross-price elasticity of new-book demand w/ respect to used-books prices = 0.0888
+ -16% of used-book sales at Amazon cannibalize new-book purchases 
+ -increase in book readership from used-book marektplace - increases CS $65.67 million annually
+ -$45.05 million loss in public welfare, #65.76 million increase in Amazon's profits
+ -increase in total welfare to society of $87.92 million annually from used-book markets 
