@@ -1,0 +1,49 @@
+    [Effect of WOM on Sales: Online Book Reviews]
+ 
+  # Intro/keywords
+-belief web must provide community content to build brand loyalty 
+-not clear why users would take the time to provide reviews for sth not compensated for
+-competing retailers can free ride on investments in recommender systems 
+-by providing user reviews, site cedes control over info displayed w/ unfavorable reviews
+https://freakonomics.com/2005/07/22/why-do-people-post-reviews-on-amazon/
+? think about: why people post reviews? motivation?
+
+  #Data
+-book characteristic: amazon, bn 
+-sales: approximated by collecting random sample of 3578 books from Global Books in Print released over 1998-2002
+& 2818 titles appeared in Publishers Weekely best-seller lists from 1991-2002
+-period of data collection: 2-day period in May 2003, 2-day period in August 2003, 2-day period in May 2004
+-price charged, promised time until book would ship, number of reviews, avg number of stars reviewers assigned
+-for all periods, extracted most recent 500 reviews of book posted on Web 
+(Data characteristic)
+1) Prices significantly higher in bn than amazon
+2) Amazon has more reviews than bn, much more books have no reviews in bn
+3) Reviews slightly more positive on avg at bn 
+-Number of incremental reviews: btw May 2003~July 2003 / btw May 2003~April 2004 (11-month period)
+
+  #Model
+-y: log rank (in lieu of log sales), difference between log ranking of book on Amazon and BN
+-log specification estimates the effect of a change in independent variables on percentage change in dependent variable
+-book fixed effect: offline promotion, quality of book, popularity of author etc.
+-S: dummy variables of shippint times promised by each Web site for each book 
+
+  #Results
+-on average, reviews have positive effect on sales (esp at bn) 
+-addition of new, favorable reviews at one site results in increase in sales of a book at that site relative to the other site
+1) Cross-sectional
+-assume no site-specific fixed effects / 2 sites identical in readership's preferences
+-y: log(rank of Amazon)-log(rank of BN)
+-include length of reviews : positive/significant at Amazon / negative/insignificant at BN
+-> interpretation: encouraging longer, more useful reviews harmful to sales / longer reviews don't stimulate sales
+$ only took in length, didn't take in content. 
+2) DID Analysis
+-assume site-specific fixed effect, there is difference in 2 site's readership's preferences
+-analysis with books available at both sites (2082 books) / smaller sample than (1)
+-effect of two month & one year changes in reviews on changes in sales
+-y: change(log(rank of Amazon)-log(rank of BN))
+
+*5-star reviews/avg star rating increase sales, 1-star reviews decrease sales
+*1-star reviews have greater impact(coeeficient) than 5-star reviews 
+
+#extension
+-examine whether improving customer's satisfaction wih his purchases affects subsequent loyalty 
