@@ -1,0 +1,45 @@
+    [Converting Pirates without Cannibalizing Purchasers: The Impact of Digital Distribution on Physical Sales and Internet Piracy]
+  
+     #Intro/key words
+ 1-What happens to the level of piracy of television content when that content is removed from iTunes
+(and when it is returned)?
+ 2-What happens to DVD sales of television seasons sold on the Internet when those seasons are removed from the iTunes store?
+   -> restoring: negative/insignificant decrease in piracy 
+   -> decision to remove content from iTunes leads to significant increase in pirated content 
+   -> no change in demand for NBC's DVD content with NBC's closing/reopening at iTunes
+   -shock of removing content from iTunes (NBC content from iTunes store) in Dec 2007
+   
+     #Theory
+ *Digital Distribution and Piracy
+ Why purchase through digital distribution channel if piracy is free?
+ 1) cost to learn to use BitTorrent : fixed cost
+ 2) individuals experience moral qualms about pirating 
+ 3) individuals fear being caught and punished
+ 4) Pirated downloads less convenient and lower quality compared to iTunes (legitimate consumption)
+ 
+  #Data
+-panel data on consumption of pirated TV content through major BitTorrent tracker sites
+Minniova.org: search engine for torrent trackers 
+-panel data on sales of DVD season box sets at Amazon.ocm 
+Nov 18-Dec 15, 2008 : Amazon 90% share of online DVD sales 
+Sales data - sales rank (Pareto distribution)
+-program for NBC and non-NBC(ABC, CBS, Fox) as control 
+-compare change 2 wks before/after removal(Dec 1, 2007)
+-use of quasi-experiment: w/ shock of removal of content on Dec 1, 2007
+
+  #Model
+1) Impact on Piracy 
+-Difference-in-Difference approach 
+-y: log(downloads of piracy)
+Nov 15~Dec 24
+-x: After 12/1 
+-cluster SE at series level: since downloads of episodes within seasons or series may be correlated
+2) Impact on DVD Sales
+-y: log(Rank)
+-x: After 12/1 
+-log(price)
+-triple DID model: Head(most popular 20%), Tail(remaining 80%) 
+
+  #Results
+ -decision to remove content from iTunes leads to significant increase in pirated content 
+ -no change in demand for NBC's DVD content with NBC's closing/reopening at iTunes
