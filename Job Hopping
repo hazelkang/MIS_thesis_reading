@@ -1,4 +1,38 @@
     [Job Hopping, Information Technology Spillovers, and Productivity Growth]
     
-  1. Intro and Keywords
--
+    1. Intro and Keywords
+-movement of information technology workers among firms
+-use employee microdata. online resume database. model IT workers' mobility patterns 
+-Hypothesis: IT investments of other firms generage productivity spillovers through IT labor flows among firms
+
+    2. Empirical Framework
+-estimate how R&D spillovers affect productivity of IT investments 
+-capital(K) and labor(L) to output / computer investment(C) 
+ computer investment by other firms within the network defined by spillover transmission mechanism(S)
+-challenge is the development of reliable measures of relevant internal/external IT investments for each firm
+-measure external pools of know-how
+-relied on the assumption that firms benefit from knowledge of other firms when they are 'close'
+-measure amount of leakage btw two firms with weights btw two firms
+-T: R&D capital stock or R&D intensity 
+-hypothesis transfer of IT-related knowledge occurs through mobility of workers 
+: measure of proximity is the actual flow of IT labor 
+
+    3. Data
+ -IT labor mobility data: from leading website through which participants post employment histories online
+ -employment info for about 10 million users who posted or modified their career information about occupation
+ -educational distribution of workers in the sample is similar to that of IT workers in Current Population Survey (CPS) data
+ -population of interest is job-switching IT worker; weighted toward younger workers and job hoppers
+ -employer names matched with publicly listed companies including Compustat 
+ -IT investment
+ 1) IT capital stock from Computer Intelligence Technology Database 
+ -restricted to Fortune 1,000 firms 
+ -no longer includes direct IT capital stock measures
+ 2) supplement IT capital stock with IT employment measures based on IT labor database 
+ 3) External IT pool
+ : IT intensity of other firms weighted by share of incoming IT labor hired from that firm in a given year
+ 
+ 
+    3. Results
+ -y: value added
+ -x: Labor
+ -controls: Non-IT capital, IT capital, IT pool, IT industry pool, R&D
