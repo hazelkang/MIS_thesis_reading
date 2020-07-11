@@ -1,0 +1,25 @@
+  [Show Me the Way to Go Home: An Empirical Investigation of Ride-Sharing and Alcohol Related Motor Vehicle Fatalities]
+
+  1. Intro
+-entry of ride-sharing services influences rate of alcohol related motor vehicle fatalities
+-potential for reducing instances of drunk driving 
+
+  2. Data
+-natural experiment : intro of ride-sharing btw 2009-2014
+-California Highway Patrol's Statewide Integrated Traffic Report System (SWITRS)
+
+  3. Hypothesis
+1) Implementation of a premium ride-sharing service will be associated with a negative/significant effect on rate of alcohol related motor vehicle fatalities
+2) Implementation of a discount ride-sharing service will be associated with a negative/significant effect on rate of alcohol related motor vehicle fatalities
+
+  3. Empirical Model
+-DID
+-y: ln(Number of deaths) : number of people killed in motor vehice accident in town where at least one was under influence of alcohol
+-x: Uber X(discount service), Uber Black(premium car service) entry 
+-fixed effect
+
+  4. Results
+1) Entry of Uber X strongly/negatively affects number of motor vehicle fatalities 
+2) Time for effects to manfiest is nontrivial(9~15 months) 
+3) No effect of entry when surge pricing is likely 
+4) No negative effect of entry on rate of non-alcohol related motor vehicle fatalities 
