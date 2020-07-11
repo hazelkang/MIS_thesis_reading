@@ -1,0 +1,14 @@
+  [Returns to Information Technology Outsourcing]
+
+  1. Intro
+-IT outsourcing has made a positive and economically meaningful contribution to industry output and labor productive
+Reasons why IT outsourcing can create value 
+1) competition increasing among outsourcing providers
+2) firms learn from their own or others' experiences in IT outsourcing
+3) learning helps reduce transaction costs and increase value 
+
+  2. Data
+-annual data for 60 nonfarm industries in US private sector 1998-2006
+-cross-sectional time-series data sets use OLS with panel-corrected standard errors
+: correct heteroskedascticity, contempeoraneous correlation, autocorrelation
+-FGLS: correction only for heteroskedasticity and autocorrelation 
