@@ -1,0 +1,30 @@
+[Value Co-Creation and Wealth Spillover in Open Innovation Alliances]
+
+  1. Intro
+-economic and strategic value of open innovation alliances (OLAs)
+-OLA: collaborators and competitors integrate in pursuit of co-development of technological innovations
+-firm's entry into OLA increase market valuation of its rival 
+-allying firms realie significant positive returns when entry into OLA is made public
+: Hypothesis 1: Positive abnormal stock returns will accrue to firms that participate in OLA
+: Hypothesis 2: Announcement of entry of a market leader company (ex. MS) into an existing OLA will result in positive abnormal returns for current OLA member firms
+: Hypothesis 3: Announcement of OLAs will result in positive abnormal stock returns for rival firms that compete with firms participating in OLAs
+(spill over)
+: Hypothesis 4: All else being equal, firms that participate in an OIA with more heterogeneous partners will experience higher abnormal returns than firms that join an OIA with more homogeneous partners.
+: Hypothesis 5: All else being equal, firms that participate in an OIA driven by radical innovation will experience higher abnormal returns than firms that join an OIA focusing on incremental innovation.
+: Hypothesis 6: All else being equal, firms that participate in an OIA with full access and decision authority will experience higher abnormal returns than firms that join an OIA with limited access and decision authority.
+
+  2. Data
+-full-text search of public announcements of OIAs between January 1, 2000 and August 30, 2009
+-1st stage: general search terms such as open innovation, open standards, and open alliance were used to identify OIAs
+-2nd stage: identification of the firms that participated in the OIAs identified in the first search
+
+  3. Estimation
+-R-R*: actual return- predicted return 
+-R*: OLS regression
+
+  4. Results
+-H1-H3: tested by means of CAR analyses
+: wealth spillover, wealth impacts on allying firms' non-participating rivals
+-H4-H6: validated with OLS regression approaches 
+: heterogeneity insignificant, radical innovation acheive higher returns, openess insignificant
+
