@@ -1,0 +1,54 @@
+[Competing “Creatively” in Online Markets: Evidence from Sponsored Search]
+
+   1. Intro
+-firms’ differentiation strategies in these competitive markets or outcomes of differentiation
+-competition among firms in online sponsored search markets
+-test a model that predicts the clickthrough rate (CTR) of a seller’s listing in a sponsored search setting
+-theorize that the CTR is jointly driven by the seller’s positioning strategy and the nature of competition around the focal seller’s listing
+
+  2. Research Context
+-integration and co-evolution of search and advertising business models
+-clickthrough rate(CTR): defined by total number of clicks received by an ad divided by total number of time ad was shown
+  -> measure of effectiveness of the ad in attracting consumers to the seller's website
+-rank on a listing may change dynamically depending on the rank ordering of the current bids 
+-research in economics and IS suggests that a consumer's search cost has significant impact on the price, product positioning, ad and other strategic decisions of a firm
+  [Nature of consumer search]
+1. Search intensity
+: time and effort spent in searching 
+2. Specific info sought 
+
+  3. Hypothesis
+H1: Sellers ranked higher in a sponsored search listing have higher CTR than those ranked lower in the search listing
+H2a: The CTR of a seller in a sponsored search listing is influenced by the seller's positioning strategy as highlighted by the USP in its ad creative
+  USP: Unique Selling Proposition (USP)
+H2b: The effect of a seller's USP on CTR is moderated by the rank at which the seller appears on the sponsored search listing
+H2c: The relative performance(CTR) of a price USP as compared to a quality USP improves at lower ranks in the sponsored search listing
+H3a: In a sponsored search listing, higher competitive intensity for a USP will lead to lower CTR for a seller with that USP
+H3b: Impact of competitive intensity is stronger for a seller using a quality USP relative to a seller using a price USP
+
+  4. Data
+-field experiment conducted in conjunction with a firm in the mortgage industry(FocalSeller) that bids for placement on one of the largest sponsored search markets
+-bids for top 36 keywords, ranks obtained to each of the bids
+-period of three months in 2006
+-2 brand positioning strategies chosen: price and quality USP 
+  1) Quality USP - customer satisfaction, trusted, secure and confidential, quick and easy
+  2) Price USP - no closing cost, low rates, lowest price, low interest, compare offers
+-measure competition: data on USP of competitors 
+
+  5. Empirical model
+-moderated multiple regression (MMR)
+-y: CTR, number of clicks received by a seller / number of impressions received by the seller
+-Rank: daily average
+-USP: 1 for price, 0 for quality 
+-CI: competitive intensity on the USP employed by the seller 
+
+  6. Results
+-magnitude of decrease in CTR as we move from top rank to bottom rank is much larger for the quality USP in comparison to price USP
+-both firm's USP and competitive intensity have significant impact on performance
+-price USP performs better than quality USP at lower ranks 
+
+  7. Further research
+-consumer survey to identify profile of consumers who search till the bottom of listing 
+
+*Things to look for:
+psychological search and economics of information (EOI) literatures 
